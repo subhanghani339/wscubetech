@@ -8,7 +8,8 @@
     <div>
         <?php wp_nav_menu(
             array(
-            'theme_location'=>'primary-menu'
+            'theme_location'=>'primary-menu',
+            'menu_class'=>'nav'
             ))?>
     </div>
 

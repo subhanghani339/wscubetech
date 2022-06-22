@@ -5,3 +5,22 @@ Author: Subhan Ghani
 Author URI: https:// www.subhanghani.com
 Version: 1.1
 */
+
+.nav {
+    display:flex;
+    margin-top:100px;
+}
+
+li{
+    list-style: none;
+    margin: 0px 30px;
+}
+
+figure {
+    display: flex;
+}
+
+figure.wp-block-image img{
+    width:100%;
+    height: 70%;
+}
